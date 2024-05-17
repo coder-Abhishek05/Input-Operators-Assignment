@@ -1,0 +1,60 @@
+Q1----->
+
+Output:
+Output is: 0
+
+Q2----->
+
+Output:
+1 1
+
+Q3------>
+
+Output:
+2
+
+Q4---------->
+
+/*WAP for finding the volume of the cylinder by taking radius and height as input.*/
+
+#include <iostream>
+using namespace std;
+
+int main(){
+    int radius, height;
+    int pi= 3.14;
+    cout<<"Enter the radius of cylinder: ";
+    cin>>radius;
+    cout<< "Enter the height of cylinder: ";
+    cin >> height;
+    cout<< "voulume of the cylinder :";
+    cout<< (pi*radius*radius*height);
+}
+
+
+
+Q5----------------------->
+
+
+/*WAP to find the difference between ASCII of two characters ,take them as input .*/
+
+#include <iostream>
+using namespace std;
+
+int main(){
+    char c1,c2 ;
+    cout<<"Enter first character: ";
+    cin>>c1;
+    cout<<"Enter second character: ";
+    cin>>c2;
+    cout<<"The difference between ASCII value: ";
+    cout<<((int)c1 - (int)c2);
+
+}
+
+
+
+Q6--------------------------->
+
+Output:
+49
